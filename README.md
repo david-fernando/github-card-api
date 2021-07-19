@@ -25,20 +25,18 @@
 Make a get request to the url below with your Medium user
 
 ```bash
-GET https://mediumpostsapi.herokuapp.com/?githubuser={{yourgithubusername}}&repository={{yourrepository}}
+GET https://githubcardapi.herokuapp.com/?githubuser={{yourgithubusername}}&repository={{yourrepository}}
 ```
 
 Example
 
 ```bash
-https://mediumpostsapi.herokuapp.com/?githubuser=david-fernando&repository=medium-posts-api
+https://githubcardapi.herokuapp.com/?githubuser=david-fernando&repository=medium-posts-api
 ```
 The request for the above url will bring the following results
 
 ```bash
-[
-  imageUrl	"https://repository-images.githubusercontent.com/328493464/dba6e680-569b-11eb-8a15-47228be0ccfe"
-]
+ imageUrl: "https://repository-images.githubusercontent.com/328493464/dba6e680-569b-11eb-8a15-47228be0ccfe"
 ```
 
 ### <span id="how_to_contribute">How to contribute</span>
