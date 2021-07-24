@@ -33,7 +33,7 @@ Example
 ```bash
 https://githubcardapi.herokuapp.com/?githubuser=david-fernando&repository=medium-posts-api
 ```
-The request for the above url will bring the following results
+The request for the above url will bring the following result
 
 ```bash
  imageUrl: "https://repository-images.githubusercontent.com/328493464/dba6e680-569b-11eb-8a15-47228be0ccfe"
