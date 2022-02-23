@@ -11,6 +11,6 @@ const corsOptions = {
 
 const gitHubCardController = GitHubCardController()
 
-routes.get('/', cors(corsOptions), gitHubCardController.show)
+const githubCardRoute = (csrfProtection: any) => routes.get('/', csrfProtection, cors(corsOptions), gitHubCardController.show)
 
-export default routes
+export default githubCardRoute
